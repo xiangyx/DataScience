@@ -7,7 +7,6 @@ def solution_v1(A):
         sum_diff.append(abs(2 * sum_sub - sum_list))
     return min(sum_diff)
 
-
 def solution(A):
     if len(A) == 2:
         return abs(A[0] - A[1])
