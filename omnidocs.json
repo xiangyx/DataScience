@@ -1,0 +1,38 @@
+[
+    {
+        "templafy": {
+            "type": "",
+            "binding": "",
+            "format": "",
+            "visibility": {
+                "action": "",
+                "binding": "",
+                "operator": "",
+                "compareValue": "",
+                "compareValues": ["", ""]
+            }
+        }
+    },
+
+    {
+        "templafy": {
+            "type": "text",
+            "binding": "From.YourRef"
+        }
+    },
+
+    {
+        "templafy": {
+            "type": "image",
+            "binding": "UserProfile.Office.Logo"
+        }
+    },
+
+    {
+        "templafy": {
+            "type": "date",
+            "binding": "From.InvoiceDate",
+            "format": "yyyy-MM-dd"
+        }
+    }
+]
